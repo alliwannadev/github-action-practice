@@ -1,13 +1,13 @@
-package me.alliwannadev.githubactionpractice;
+package me.alliwannadev.backend;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class GithubActionPracticeApplication {
+public class Application {
 
     public static void main(String[] args) {
-        SpringApplication.run(GithubActionPracticeApplication.class, args);
+        SpringApplication.run(Application.class, args);
     }
 
 }
